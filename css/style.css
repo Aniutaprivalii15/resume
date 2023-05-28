@@ -1,0 +1,259 @@
+:root {
+  --main-bg-color: #ffffff;
+  --sidebar-bg-color: #efe7e4;
+  --container-bg-color: #ffffff;
+  --sidebar-txt-color: #354461;
+  --sidebar-link-color: #354461;
+  --main-txt-color: #354461;
+  --minor-txt-color: #354461;
+  --accent-color: #354461;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: var(--main-bg-color);
+}
+
+h4 {
+  color: var(--main-txt-color);
+  font-size: 18px;
+}
+
+p,
+li {
+  color: var(--minor-txt-color);
+  font-size: 18px;
+}
+
+span {
+  font-size: 18px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background: var(--container-bg-color);
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content section */
+
+.main-content-section {
+  padding: 100px 90px;
+}
+
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--main-txt-color);
+  margin-bottom: 10px;
+}
+
+/* About me section */
+.about-me-section {
+  margin-bottom: 40px;
+}
+
+.about-me-profession {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--main-txt-color);
+  margin-bottom: 25px;
+}
+
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 25px;
+  color: var(--main-txt-color);
+}
+
+.about-me-descriptions {
+  width: 500px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--minor-txt-color);
+}
+
+/* My projects section */
+
+.my-projects-section {
+  margin-bottom: 50px;
+}
+
+.my-projects-item {
+  color: var(--main-txt-color);
+  font-weight: bold;
+}
+
+.my-projects-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--minor-txt-color);
+}
+
+.my-projects-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--minor-txt-color);
+  margin-left: 5px;
+}
+
+.my-projects-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--main-txt-color);
+}
+
+/* My work experience */
+
+.my-work-experiance-company {
+  color: var(--accent-color);
+}
+
+.my-work-experience-time {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.My-work-experience-duties {
+  padding: 0 0 0 18px;
+}
+
+.my-work-experience-duty {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+span {
+  color: var(--main-txt-color);
+}
+
+/* My education */
+
+.my-education {
+  color: var(--main-txt-color);
+}
+
+.my-education-list {
+  padding-left: 20px;
+}
+
+.my-education-list li {
+  padding-bottom: 10px;
+  /* line-height: 20px; */
+}
+
+/* Sidebar section */
+
+.Sidebar-section {
+  background: var(--sidebar-bg-color);
+  width: 370px;
+  padding: 40px 0;
+}
+
+.contact-section,
+.tech-skills-section,
+.soft-skills-section,
+.languages-section {
+  margin: 50px 0 0 20px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--sidebar-txt-color);
+  margin-bottom: 10px;
+}
+
+/* Photo section */
+.photo {
+  width: 100%;
+  height: auto;
+  left: 40px;
+  top: 80px;
+}
+
+/* Contacts section */
+
+.contact-section-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--sidebar-txt-color);
+  margin: 7px;
+}
+
+.contact-section-link {
+  color: var(--sidebar-link-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Skills sections */
+
+.skills-list {
+  padding: 0 0 0 17px;
+}
+
+.skills-item {
+  color: var(--accent-color);
+}
+
+.skils-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* line-height: 24px; */
+  color: var(--sidebar-txt-color);
+}
+
+/*Languages sections */
+
+.languages-list {
+  padding: 0 0 0 17px;
+}
+
+.languages-item {
+  color: var(--accent-color);
+}
+
+.languages-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  /* line-height: 24px; */
+  color: var(--sidebar-txt-color);
+}
+
+.languages-item-level {
+  color: var(--sidebar-link-color);
+}
